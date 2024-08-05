@@ -1,7 +1,8 @@
-import React from 'react'
+
 import Nav from './components/Nav'
 import Work from './components/Work'
 import Stripes from './components/Stripes'
+import Products from './components/Products'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Nav/>
       <Work/>
       <Stripes/>
+      <Products />
     </div>
   )
 }
