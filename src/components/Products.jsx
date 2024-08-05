@@ -51,7 +51,7 @@ const Products = () => {
         
     ]
   return (
-    <div className="mt-20">
+    <div className="mt-24">
         {products.map((item, index)=>(
             <Product key={index} val={item} />
         ))}
