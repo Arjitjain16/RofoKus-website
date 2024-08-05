@@ -32,13 +32,28 @@ const Products = () => {
             live : true ,
             case : false
         },
+        {name : 'Rain fall',
+            description : " We crafted a website for Rainfall Ventures, developing prototypes and custom code that ultimately allows their team to update content regularly and with ease. ",
+            live : true ,
+            case : true
+        },
+        {name : 'Intenseye',
+            description : "A brand new website for Intenseye just before their $64M Series.",
+            live : true ,
+            case : false
+        },
+        {name : 'Remind',
+            description : "Remind got a new website that is designed and developed to be easy to maintain and ready to learn, reflecting their mission to connect students and families.",
+            live : true ,
+            case : true
+        },
         
         
     ]
   return (
     <div className="mt-20">
         {products.map((item, index)=>(
-            <Product key={index} name={item.name} description={item.description} />
+            <Product key={index} val={item} />
         ))}
     </div>
   )
